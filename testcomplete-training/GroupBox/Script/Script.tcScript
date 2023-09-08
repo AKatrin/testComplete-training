@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="SelectColor" key="{DBE76AA0-BDDE-4ADB-B798-DBB39F47D0C8}" path="SelectColor.scs" />
+		<child name="OpenApp" key="{550B5A84-1F07-4011-BBE9-9A57488B6E19}" path="OpenApp.scs" />
+		<child name="CloseApp" key="{339C904B-80E4-4CFE-8525-5B8126E339EC}" path="CloseApp.scs" />
+	</children>
+</Root>

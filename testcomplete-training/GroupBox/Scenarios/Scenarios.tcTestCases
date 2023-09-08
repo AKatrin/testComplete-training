@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Folder Name="MFP-AKV" HipTestID="3008931">
+		<Feature Path="MFP-AKV\Select color.feature" HipTestID="3017011" />
+	</Folder>
+</Scenarios>

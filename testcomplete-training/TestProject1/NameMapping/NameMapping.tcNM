@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{C1126024-3EF2-4AD5-9499-DF50A82646C9}">
+				<TypeInfo Item0="{DAB48F70-6A2E-48D3-8477-427317FBE867}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="RxDemoApp" Key="{DCB29DE4-E28D-4B16-AF18-462F3AF2D8A0}">
+						<TypeInfo Item0="{47F4BF81-2771-4D79-801D-5446BF91297E}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="RxDemoApp" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="RxMainFrame" Key="{6E8552CF-A530-4864-B16A-80D61101A708}">
+								<Image FileName="1905862483" Left="0" Top="0" Right="837" Bottom="551" />
+								<TypeInfo Item0="{48C23288-97ED-4821-B4A1-5E0FC286BC98}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="RxMainFrame" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="RxTabcontrol" Key="{BC1E83AA-9B2C-4764-A588-B9A27C5FCFBE}">
+										<Image FileName="1905862483" Left="23" Top="113" Right="821" Bottom="502" />
+										<TypeInfo Item0="{BBEE365D-EC32-4794-B59C-71B5726178D4}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="RxTabcontrol" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="RxTabUIElements" Key="{07BFF251-E1AA-43B9-9A90-386147A50381}">
+												<Image FileName="1905862483" Left="27" Top="137" Right="817" Bottom="498" />
+												<TypeInfo Item0="{30AF26C5-CA77-494A-AA78-FD77C1CC33D2}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="RxTabUIElements" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="grpBox" Key="{A22577CF-C4A7-4003-A9EA-E24071C6E9B4}">
+														<Image FileName="1905862483" Left="50" Top="173" Right="812" Bottom="294" />
+														<TypeInfo Item0="{30AF26C5-CA77-494A-AA78-FD77C1CC33D2}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="grpBox" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="grpBoxRadioButton" Key="{392DF87C-8EFB-494E-B302-CE8574B5D4CD}">
+																<Image FileName="1905862483" Left="64" Top="196" Right="292" Bottom="280" />
+																<TypeInfo Item0="{30AF26C5-CA77-494A-AA78-FD77C1CC33D2}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="grpBoxRadioButton" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="pnlColourPanel" Key="{0893A525-448B-4FDA-B722-4A888DE5BE6B}">
+																		<Image FileName="1905862483" Left="231" Top="220" Right="275" Bottom="264" />
+																		<TypeInfo Item0="{30AF26C5-CA77-494A-AA78-FD77C1CC33D2}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="pnlColourPanel" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="rdbGreenLight" Key="{BD45E94E-C75A-48B6-BE63-F99C59BC0B46}">
+																		<Image FileName="886665109" Left="83" Top="245" Right="166" Bottom="264" />
+																		<TypeInfo Item0="{AC0E82C8-81C1-486E-9072-0746F91B9B71}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="rdbGreenLight" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="RxDemoApp" Owner="{DCB29DE4-E28D-4B16-AF18-462F3AF2D8A0}">
+			<Child Name="RxMainFrame" Owner="{6E8552CF-A530-4864-B16A-80D61101A708}">
+				<Child Name="RxTabcontrol" Owner="{BC1E83AA-9B2C-4764-A588-B9A27C5FCFBE}">
+					<Child Name="RxTabUIElements" Owner="{07BFF251-E1AA-43B9-9A90-386147A50381}">
+						<Child Name="grpBox" Owner="{A22577CF-C4A7-4003-A9EA-E24071C6E9B4}">
+							<Child Name="grpBoxRadioButton" Owner="{392DF87C-8EFB-494E-B302-CE8574B5D4CD}">
+								<Child Name="pnlColourPanel" Owner="{0893A525-448B-4FDA-B722-4A888DE5BE6B}" />
+								<Child Name="rdbGreenLight" Owner="{BD45E94E-C75A-48B6-BE63-F99C59BC0B46}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
