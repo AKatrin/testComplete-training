@@ -1,3 +1,0 @@
-﻿Given("I open the App ranorex demo", function (){
-  TestedApps["RxDemoApp"]["Run"]();
-});

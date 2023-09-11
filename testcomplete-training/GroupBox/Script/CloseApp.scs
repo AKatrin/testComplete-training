@@ -1,3 +1,0 @@
-﻿Then("I close the application", function (){
-  Aliases["RxDemoApp"]["RxMainFrame"]["Close"]();
-});

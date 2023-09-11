@@ -1,5 +1,0 @@
-﻿
-void navigate() {
-    var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
-  tabControl["ClickTab"]("UI-element test area");
-}
