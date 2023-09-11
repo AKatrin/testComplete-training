@@ -1,0 +1,11 @@
+# Use glob syntax
+syntax: glob
+
+#Ignore logs
+Log/
+
+#Ignore lcal settings file
+*.tcLS
+*.tcCfgExtender
+
+*.bak
