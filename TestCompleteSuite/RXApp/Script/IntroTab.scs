@@ -20,5 +20,6 @@ function setTextName(name){
 }
 
 function clickSubmit (){
-  Button["clickButton"]("clickIntroSubmit");
+  Button["clickButtonTab"]("RxTabIntroduction","btnSubmitUserName");
+  Log["Message"]("Clicked on button btnSubmitUserName");
 }
