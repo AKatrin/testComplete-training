@@ -34,7 +34,7 @@ stages:
         echo https://delicate-gelato-ec89ad.netlify.app
       displayName: 'Print TestComplete Report'
     - powershell: |
-        Write-Host "##vso[task.uploadsummary]$(System.DefaultWorkingDirectory)\TestCompleteReport.md"
+        Write-Host "##vso[task.uploadsummary]$(System.DefaultWorkingDirectory)\testcomplete-training\TestCompleteReport.md"
       displayName: 'Show TestComplete Report'
     # - task: PublishHtmlReport@1
     #   inputs:
