@@ -17,7 +17,7 @@ stages:
       name: localhosttc
     steps:
     - script: |
-        "C:\Program Files (x86)\SmartBear\TestExecute 15\Bin\TestExecute.exe" testcomplete-training.pjs /r /ns /SilentMode /exit /DoNotShowLog /ExportLog:"$(System.DefaultWorkingDirectory)\report\index.html"
+        "C:\Program Files (x86)\SmartBear\TestExecute 15\Bin\TestExecute.exe" "$(System.DefaultWorkingDirectory)\testcomplete-training\testcomplete-training.pjs" /r /ns /SilentMode /exit /DoNotShowLog /ExportLog:"$(System.DefaultWorkingDirectory)\report\index.html"
         dir
       displayName: 'Run tests using TestExecute.exe'
     # - task: install@1
