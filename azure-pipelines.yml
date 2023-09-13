@@ -42,7 +42,7 @@ stages:
     #     reportDir: '$(Build.SourcesDirectory)/$(Build.BuildId)/report/index.html'
     - task: ArchiveFiles@2
       inputs:
-        rootFolderOrFile: '$(Build.SourcesDirectory)\Log'
+        rootFolderOrFile: '$(Build.SourcesDirectory)\testcomplete-training\Log'
         includeRootFolder: false
         archiveType: 'zip'
         archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
