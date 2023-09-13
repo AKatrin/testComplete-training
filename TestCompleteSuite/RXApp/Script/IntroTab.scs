@@ -1,0 +1,24 @@
+﻿//USEUNIT Button
+//USEUNIT Tab
+//USEUNIT TextBox
+var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+
+function goTabIntroduction(){
+  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+  tabControl["ClickTab"]("Introduction");
+  Log["Message"]("Goes tab Introduction")
+}
+
+function clickButtonSubmitIntro(tabPage){
+  tabPage["btnSubmitUserName"]["ClickButton"]();
+  Log["Message"]("Clicked on submit button.")
+}
+
+function setTextName(name){    
+  TextBox["setText"](name,"RxTabIntroduction","txtUserName");
+  Log["Message"]("Setting Text on"+ name);
+}
+
+function clickSubmit (){
+  Button["clickButton"]("clickIntroSubmit");
+}

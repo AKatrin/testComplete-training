@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B9D9AA59-87ED-4978-87E1-4FF8A54B8297}">
+				<TypeInfo Item0="{165F4752-2A50-4152-B13A-9A8D09A4B5C0}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="RxDemoApp" Key="{CCE10A44-D5CD-4318-B691-4E5261E5C42E}">
+						<TypeInfo Item0="{1479C025-6B72-4FB6-A717-F8CD2CC07613}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="RxDemoApp" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="RxMainFrame" Key="{F6920339-87E1-499D-BB7E-D66F68766650}">
+								<Image FileName="-932020375" Left="0" Top="0" Right="837" Bottom="551" />
+								<TypeInfo Item0="{F612FB54-D987-4BDD-8BB0-747B6AA532B5}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="RxMainFrame" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="menuStrip1" Key="{3005BD70-B2EA-4C7E-B6D2-F414878788DD}">
+										<Image FileName="-932020375" Left="8" Top="31" Right="829" Bottom="55" />
+										<TypeInfo Item0="{99223BAF-F533-41AB-9282-EE6D84DB89B9}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="menuStrip1" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="RxTabcontrol" Key="{0FCBB10E-B908-48BD-A872-EEDCF3B44237}">
+										<Image FileName="-932020375" Left="23" Top="113" Right="821" Bottom="502" />
+										<TypeInfo Item0="{FB0CDBF4-CF6A-4D82-8014-B83A3385C1C4}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="RxTabcontrol" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="RxTabIntroduction" Key="{344387F9-ABC9-4908-A350-D8B076C0B876}">
+												<Image FileName="-932020375" Left="27" Top="137" Right="817" Bottom="498" />
+												<TypeInfo Item0="{99223BAF-F533-41AB-9282-EE6D84DB89B9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="RxTabIntroduction" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="txtUserName" Key="{AE250B91-7B06-4763-B28D-76E17237368A}">
+														<Image FileName="-1067708753" Left="150" Top="307" Right="328" Bottom="330" />
+														<TypeInfo Item0="{B82994E5-5D97-4EC2-96D3-1BE0EE7CB910}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="txtUserName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnSubmitUserName" Key="{95BF4E4D-2DDE-4055-A40A-AA8D582D1607}">
+														<Image FileName="-1067708753" Left="334" Top="306" Right="401" Bottom="330" />
+														<TypeInfo Item0="{3228B8DE-8CC3-4EF2-A92A-CB53D932C466}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnSubmitUserName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="lblWelcomeMessage" Key="{B564FB6B-7407-46E7-B9F5-8D9413D5CC96}">
+														<Image FileName="-932020375" Left="436" Top="176" Right="520" Bottom="197" />
+														<TypeInfo Item0="{99223BAF-F533-41AB-9282-EE6D84DB89B9}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="lblWelcomeMessage" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="RxTabStandard" Key="{EB6E8346-99C6-46C9-ACC8-65101E4CF880}">
+												<Image FileName="186310768" Left="27" Top="137" Right="817" Bottom="498" />
+												<TypeInfo Item0="{99223BAF-F533-41AB-9282-EE6D84DB89B9}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="RxTabStandard" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="txtFirstName" Key="{364E99CF-B664-46AC-B337-4C99A22F6360}">
+														<Image FileName="259042809" Left="41" Top="196" Right="218" Bottom="219" />
+														<TypeInfo Item0="{B82994E5-5D97-4EC2-96D3-1BE0EE7CB910}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="txtFirstName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtLastName" Key="{42323CCB-ADD9-4275-87DC-5A2C6EF36546}">
+														<Image FileName="186310768" Left="232" Top="196" Right="409" Bottom="219" />
+														<TypeInfo Item0="{B82994E5-5D97-4EC2-96D3-1BE0EE7CB910}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="txtLastName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="cmbDepartment" Key="{9B3B627D-6427-45D9-9D74-EEC84C74796C}">
+														<Image FileName="52091867" Left="41" Top="250" Right="409" Bottom="273" />
+														<TypeInfo Item0="{6E220F01-F21E-4E1A-B154-D1D8F3669CAE}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="cmbDepartment" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBoxChildNativeWindow" Key="{7A8E423F-87D2-462C-B6AB-F90FA6E1DEB5}">
+																<Image FileName="52091867" Left="44" Top="253" Right="389" Bottom="270" />
+																<TypeInfo Item0="{14A2D6C9-0800-40D9-BE83-8B0C5C625AB4}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="Edit" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="txtAge" Key="{5D519F47-437C-42F8-B10B-8D4C8A27DA2C}">
+														<Image FileName="186310768" Left="41" Top="304" Right="182" Bottom="327" />
+														<TypeInfo Item0="{2DBEFB1F-DC4F-433A-916B-E8A2E919979E}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="txtAge" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="UpDownEdit" Key="{ADDB60E6-FA68-4FB0-ACB1-F879693F7C26}">
+																<Image FileName="186310768" Left="43" Top="306" Right="164" Bottom="325" />
+																<TypeInfo Item0="{B82994E5-5D97-4EC2-96D3-1BE0EE7CB910}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Forms.UpDownBase+UpDownEdit" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="grpGender" Key="{46A9DA0F-5F9E-4178-B4EE-35A7ACBD8C5F}">
+														<Image FileName="186310768" Left="199" Top="287" Right="409" Bottom="334" />
+														<TypeInfo Item0="{99223BAF-F533-41AB-9282-EE6D84DB89B9}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="grpGender" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="rdbFemale" Key="{14E692CC-242F-4DC7-8D52-C9CB6AB319B7}">
+																<Image FileName="186310768" Left="228" Top="304" Right="291" Bottom="323" />
+																<TypeInfo Item0="{E67C2387-B1BC-469B-8BB5-36DFB04BA909}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="rdbFemale" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="rdbMale" Key="{F46FCDB7-E0E1-46E1-853B-F652A8C70C0C}">
+																<Image FileName="186310768" Left="318" Top="304" Right="369" Bottom="323" />
+																<TypeInfo Item0="{E67C2387-B1BC-469B-8BB5-36DFB04BA909}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="rdbMale" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="btnAddPerson" Key="{F4333219-2186-4249-BCBC-929F1C005CF7}">
+														<Image FileName="186310768" Left="310" Top="357" Right="410" Bottom="381" />
+														<TypeInfo Item0="{3228B8DE-8CC3-4EF2-A92A-CB53D932C466}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnAddPerson" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="lstPersonList" Key="{65C36ADA-C12E-40C0-BB8D-A126D4691F1A}">
+														<Image FileName="186310768" Left="439" Top="196" Right="806" Bottom="350" />
+														<TypeInfo Item0="{66FEABB0-2494-41F1-9B9D-A73FBBE5CB34}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="lstPersonList" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnDeletePerson" Key="{7F35FAB5-BF31-41A5-9367-2E303FDA5C72}">
+														<Image FileName="186310768" Left="706" Top="357" Right="806" Bottom="381" />
+														<TypeInfo Item0="{3228B8DE-8CC3-4EF2-A92A-CB53D932C466}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnDeletePerson" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="lblNumberOfPersonsNumber" Key="{98C573A6-3C63-4493-ACDF-A7F55A707A48}">
+														<Image FileName="186310768" Left="792" Top="178" Right="806" Bottom="193" />
+														<TypeInfo Item0="{99223BAF-F533-41AB-9282-EE6D84DB89B9}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="lblNumberOfPersonsNumber" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="RxButtonExit" Key="{AF48C81F-6D52-4D2E-936A-753B7D98B487}">
+										<Image FileName="-932020375" Left="742" Top="508" Right="817" Bottom="532" />
+										<TypeInfo Item0="{3228B8DE-8CC3-4EF2-A92A-CB53D932C466}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="RxButtonExit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="RxDemoApp" Owner="{CCE10A44-D5CD-4318-B691-4E5261E5C42E}">
+			<Child Name="RxMainFrame" Owner="{F6920339-87E1-499D-BB7E-D66F68766650}">
+				<Child Name="Menu" Owner="{3005BD70-B2EA-4C7E-B6D2-F414878788DD}" />
+				<Child Name="RxTabcontrol" Owner="{0FCBB10E-B908-48BD-A872-EEDCF3B44237}">
+					<Child Name="RxTabIntroduction" Owner="{344387F9-ABC9-4908-A350-D8B076C0B876}">
+						<Child Name="txtUserName" Owner="{AE250B91-7B06-4763-B28D-76E17237368A}" />
+						<Child Name="btnSubmitUserName" Owner="{95BF4E4D-2DDE-4055-A40A-AA8D582D1607}" />
+						<Child Name="lblWelcomeMessage" Owner="{B564FB6B-7407-46E7-B9F5-8D9413D5CC96}" />
+					</Child>
+					<Child Name="RxTabDataBase" Owner="{EB6E8346-99C6-46C9-ACC8-65101E4CF880}">
+						<Child Name="txtFirstName" Owner="{364E99CF-B664-46AC-B337-4C99A22F6360}" />
+						<Child Name="txtLastName" Owner="{42323CCB-ADD9-4275-87DC-5A2C6EF36546}" />
+						<Child Name="cmbDepartment" Owner="{9B3B627D-6427-45D9-9D74-EEC84C74796C}">
+							<Child Name="ComboBoxChildNativeWindow" Owner="{7A8E423F-87D2-462C-B6AB-F90FA6E1DEB5}" />
+						</Child>
+						<Child Name="txtAge" Owner="{5D519F47-437C-42F8-B10B-8D4C8A27DA2C}">
+							<Child Name="UpDownEdit" Owner="{ADDB60E6-FA68-4FB0-ACB1-F879693F7C26}" />
+						</Child>
+						<Child Name="grpGender" Owner="{46A9DA0F-5F9E-4178-B4EE-35A7ACBD8C5F}">
+							<Child Name="rdbFemale" Owner="{14E692CC-242F-4DC7-8D52-C9CB6AB319B7}" />
+							<Child Name="rdbMale" Owner="{F46FCDB7-E0E1-46E1-853B-F652A8C70C0C}" />
+						</Child>
+						<Child Name="btnAddPerson" Owner="{F4333219-2186-4249-BCBC-929F1C005CF7}" />
+						<Child Name="lstPersonList" Owner="{65C36ADA-C12E-40C0-BB8D-A126D4691F1A}" />
+						<Child Name="btnDeletePerson" Owner="{7F35FAB5-BF31-41A5-9367-2E303FDA5C72}" />
+						<Child Name="lblNumberOfPersonsNumber" Owner="{98C573A6-3C63-4493-ACDF-A7F55A707A48}" />
+					</Child>
+				</Child>
+				<Child Name="RxButtonExit" Owner="{AF48C81F-6D52-4D2E-936A-753B7D98B487}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

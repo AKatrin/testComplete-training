@@ -1,0 +1,6 @@
+﻿function setText(valueContent,tabValue,objTextBoxName){
+  var textBox = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabIntroduction"]["txtUserName"]
+  textBox["SetText"](valueContent);
+  Log["Message"]("Set text" + valueContent);
+}
+

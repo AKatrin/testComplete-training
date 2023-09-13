@@ -1,0 +1,24 @@
+﻿//USEUNIT Button
+//USEUNIT IntroTab
+//USEUNIT Tab
+//USEUNIT TextBox
+
+Given("the user opens the app", function (){
+  TestedApps["RxDemoApp"]["Run"]();
+  Log["Message"]("Starting the app");
+});
+
+Given("the user goes to the {arg} tab", function (tabName){
+  Tab["goTabByName"](tabName);
+  Log["Message"]("Goes to tab"+tabName);
+});
+
+When("the user submits the name field with {arg}", function (name){
+  IntroTab["setTextName"](name);
+  IntroTab["clickSubmit"]();
+  Log["Message"]("Clicked on submit button.")
+});
+
+Then("the user sees the message Welcome, {arg}!", function (name){
+  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabIntroduction"]["lblWelcomeMessage"], "WndCaption", cmpEqual, "Welcome, "+name+"!");
+});

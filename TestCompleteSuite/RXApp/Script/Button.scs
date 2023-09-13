@@ -1,0 +1,5 @@
+﻿function clickButton(name){
+  var btnControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabIntroduction"]["btnSubmitUserName"]
+  btnControl["Click"]();
+  Log["Message"]("Clicked on button"+name);
+}

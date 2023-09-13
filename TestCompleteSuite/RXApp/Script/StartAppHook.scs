@@ -1,0 +1,6 @@
+﻿BeforeFeature(function(Features){
+  if(Features.TagsContains("OpenApp")){  
+     TestedApps["RxDemoApp"]["Run"]();
+     Log["Message"]("Starting the app");
+    }
+})

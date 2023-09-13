@@ -1,0 +1,4 @@
+﻿AfterScenario(function(scenario){
+  TestedApps["RxDemoApp"]["Close"]();
+  Log["Message"]("Exit from tested apps");
+})

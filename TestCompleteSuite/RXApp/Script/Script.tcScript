@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Controls">
+			<child name="Tab" key="{BB508E3A-D11E-4E31-94EB-42C065F2DE43}" path="Tab.scs" />
+			<child name="Button" key="{7D36521C-F54A-448F-BAD6-26E7629CBE72}" path="Button.scs" />
+			<child name="TextBox" key="{08E52E77-9F12-4898-AEFC-7C55757EE143}" path="TextBox.scs" />
+		</folder>
+		<folder name="Hooks">
+			<child name="ExitAppHook" key="{D77D3E8E-EDA7-4682-81ED-52B669ABB6E0}" path="ExitAppHook.scs" />
+			<child name="StartAppHook" key="{AE58D55B-E04A-40B1-AEE4-EC0078FE9802}" path="StartAppHook.scs" />
+		</folder>
+		<folder name="Steps">
+			<child name="IntroductionStepsDefinitions" key="{58A3BE04-78DF-4DAF-B8FC-39A9486082CA}" path="IntroductionStepsDefinitions.scs" />
+			<child name="DataBaseStepDefinitions" key="{E5660EFA-F5D5-44FA-9F48-CA40A5DF8821}" path="DataBaseStepDefinitions.scs" />
+		</folder>
+		<folder name="Tasks">
+			<child name="IntroTab" key="{B6D978B0-BBDD-44BD-B526-3E9D5F8F2BE3}" path="IntroTab.scs" />
+			<child name="DataBaseTab" key="{77D3E545-D48F-4772-81AD-F43A4B5B02F0}" path="DataBaseTab.scs" />
+		</folder>
+	</children>
+</Root>

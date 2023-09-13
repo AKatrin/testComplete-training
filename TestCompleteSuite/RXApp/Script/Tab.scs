@@ -1,0 +1,5 @@
+﻿function goTabByName(tabName){
+  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+  tabControl["ClickTab"](tabName);
+  Log["Message"]("Goes tab" + tabName)
+}
