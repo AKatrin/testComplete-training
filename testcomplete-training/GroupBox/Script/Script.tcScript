@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="SelectColor" key="{DBE76AA0-BDDE-4ADB-B798-DBB39F47D0C8}" path="SelectColor.scs" />
-		<child name="OpenApp" key="{550B5A84-1F07-4011-BBE9-9A57488B6E19}" path="OpenApp.scs" />
-		<child name="CloseApp" key="{339C904B-80E4-4CFE-8525-5B8126E339EC}" path="CloseApp.scs" />
+		<folder name="Pages">
+			<child name="UIElementTestAreaPanel" key="{75450A59-ADE2-49B0-98C8-E23166EDA77A}" path="UIElementTestAreaPanel.scs" />
+			<child name="NavigationTabs" key="{EB35F4E7-81F9-4FC2-8C0D-5164BE27FA8E}" path="NavigationTabs.scs" />
+		</folder>
+		<folder name="Steps">
+			<child name="CloseApp" key="{339C904B-80E4-4CFE-8525-5B8126E339EC}" path="CloseApp.scs" />
+			<child name="OpenApp" key="{550B5A84-1F07-4011-BBE9-9A57488B6E19}" path="OpenApp.scs" />
+			<child name="SelectColor" key="{DBE76AA0-BDDE-4ADB-B798-DBB39F47D0C8}" path="SelectColor.scs" />
+		</folder>
+		<folder name="Tasks">
+			<child name="ActionTab" key="{F5769A9D-CBB3-473B-8034-971B56DB3CFA}" path="ActionTab.scs" />
+		</folder>
 	</children>
 </Root>

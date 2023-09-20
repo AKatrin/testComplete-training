@@ -1,3 +1,9 @@
-﻿Given("I open the App ranorex demo", function (){
+﻿// To reference a single unit
+
+
+
+Given("I open the App ranorex demo", function (){
+  Log["Message"]("Open Ranorex Demo Application")
   TestedApps["RxDemoApp"]["Run"]();
+  //XUnit1["ChildFunc"]();
 });

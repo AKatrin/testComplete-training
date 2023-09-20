@@ -1,1 +1,9 @@
-﻿
+﻿// To reference a single unit
+// [XUnit2]
+//USEUNIT XUnit1
+
+Given("I open the App ranorex demo", function (){
+  Log["Message"]("Open Ranorex Demo Application")
+  TestedApps["RxDemoApp"]["Run"]();
+  //XUnit1["ChildFunc"]();
+});

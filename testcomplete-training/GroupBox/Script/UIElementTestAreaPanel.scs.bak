@@ -1,0 +1,2 @@
+﻿
+var greenLightRadioBtn = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["rdbGreenLight"];

@@ -1,28 +1,35 @@
-﻿Given("I display the UI-elemtes tab", function (){
-  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
-  tabControl["ClickTab"]("UI-element test area");
+﻿// To reference a single unit
+// [SelectColor]
+//USEUNIT UIElementTestAreaPanel
+//USEUNIT ActionTab
+
+Given("I display the UI-elemtes tab", function (){
+  ActionTab["SelectTabByText"]("UI-element test area");
+  //Without useing a patter design
+  //var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+  //tabControl["ClickTab"]("UI-element test area");
 });
 
 When("I select the green color", function (){
-  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
-  var groupBox = tabControl["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"];
-  groupBox["rdbGreenLight"]["ClickButton"]();
+  Log["Message"]("Select Green color");
+  UIElementTestAreaPanel["greenLightRadioBtn"]["ClickButton"]();
 });
 
 Then("I see the squere green", function (){
+  Log["Message"]("Verify green square color is displayed");
   aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndCaption", cmpEqual, "");
   aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndStyles", cmpEqual, 1442840576);
   aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndStylesEx", cmpEqual, 65536);
 });
 
 When("I select the red color", function (){
-  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
-  var groupBox = tabControl["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"];
-  groupBox["rdbRedLight"]["ClickButton"]();
+  Log["Message"]("Select red color");
+  UIElementTestAreaPanel["redLightRadioBtn"]["ClickButton"]();
 });
 
 Then("I see the red squere", function (){
-   aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndCaption", cmpEqual, "");
+  Log["Message"]("Verify red square color is displayed");
+  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndCaption", cmpEqual, "");
   aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndStyles", cmpEqual, 1442840576);
   aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabUIElements"]["grpBox"]["grpBoxRadioButton"]["pnlColourPanel"], "WndStylesEx", cmpEqual, 65536);
 });

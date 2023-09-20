@@ -1,5 +1,9 @@
 ﻿
-void navigate() {
-    var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
-  tabControl["ClickTab"]("UI-element test area");
+function SelectTabByText(tabName)
+{
+  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+  return tabControl["ClickTab"](tabName);
+  
 }
+
+var tabControls = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];

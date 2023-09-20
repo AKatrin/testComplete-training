@@ -1,0 +1,9 @@
+﻿// To reference a single unit
+// [ActionTab]
+//USEUNIT NavigationTabs
+function SelectTabByText(tabName)
+{
+  
+  return NavigationTabs["tabControls"]["ClickTab"](tabName);
+  
+}

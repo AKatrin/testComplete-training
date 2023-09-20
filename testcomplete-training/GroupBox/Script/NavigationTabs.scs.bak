@@ -1,1 +1,8 @@
 ﻿
+function SelectTabByText(tabName)
+{
+  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+  return tabControl["ClickTab"](tabName);
+  
+}
+

@@ -20,7 +20,26 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45189.5386863426"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{37C34378-8CB5-454E-B446-6CD371E21016}"/>
+				<Prp name="nameofroot" type="S" value="I see the squere red after selecting the red option"/>
+				<Prp name="relpath" type="S" value="9_20_2023_12_55 PM_42_500\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45189.5391345486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5E635D0E-61B9-45B9-9CE4-911588C904E8}"/>
+				<Prp name="nameofroot" type="S" value="GroupBox"/>
+				<Prp name="relpath" type="S" value="9_20_2023_12_56 PM_21_225\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>
