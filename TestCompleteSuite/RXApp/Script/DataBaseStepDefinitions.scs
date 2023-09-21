@@ -18,9 +18,9 @@ When("I enter {arg}, {arg}, {arg}, {arg}, {arg}", function (name, lastName, depa
   if (gender == "Female") {
     DataBaseTab["setRadioButtonGender"]("rdbFemale");
   }else if (gender == "Male"){
-  DataBaseTab["setRadioButtonGender"]("rdbMale");
+    DataBaseTab["setRadioButtonGender"]("rdbMale");
   }  
-  Button["clickButtonTab"]("RxTabDataBase","btnAddPerson");
+    Button["clickButtonTab"]("RxTabDataBase","btnAddPerson");
 });
 
 Then("I add entry should see the list of Person on screen", function (){
@@ -28,12 +28,11 @@ Then("I add entry should see the list of Person on screen", function (){
 });
 
 Then("I delete the entry", function (){
-  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
-  var tabPage = tabControl["RxTestDataBase"];
-  var listBox = tabPage["lstPersonList"];
-  listBox["ClickItem"](0);
-  var button = tabPage["btnDeletePerson"];
-  button["ClickButton"]();
-  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTestDataBase"]["lstPersonList"], "wItemCount", cmpEqual, 0);
-  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTestDataBase"]["lblNumberOfPersonsNumber"], "WndCaption", cmpEqual, "0");
+  DataBaseTab["clickListBoxByNum"](0);
+  Button["clickButtonTab"]("RxTabDataBase","btnDeletePerson");
+  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabDataBase"]["lstPersonList"], "wItemCount", cmpEqual, 0);
+  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabDataBase"]["lblNumberOfPersonsNumber"], "WndCaption", cmpEqual, "0");
 });
+
+
+

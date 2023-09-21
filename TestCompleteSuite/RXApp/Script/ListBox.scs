@@ -1,0 +1,5 @@
+﻿function clickByValListBox(valueContent,tabValue,objListBoxName){
+  var listBox = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"][tabValue][objListBoxName]
+  listBox["ClickItem"](valueContent);
+  Log["Message"]("Click Value" + valueContent);
+}

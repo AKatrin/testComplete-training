@@ -1,5 +1,6 @@
 ﻿//USEUNIT Button
 //USEUNIT IntroTab
+//USEUNIT ListBox
 //USEUNIT RadioButton
 //USEUNIT Tab
 //USEUNIT TextBox
@@ -26,6 +27,10 @@ function setTextAge(age){
 
 function setRadioButtonGender(genderValue){
   RadioButton["clickRadioButton"]("RxTabDataBase","grpGender",genderValue);
-  //  //var btnControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabDataBase"]["grpGender"]["rdbFemale"]
   Log["Message"]("Setting Text on readio button gender"+ genderValue);  
+}
+
+function clickListBoxByNum(number){
+  ListBox["clickByValListBox"](number, "RxTabDataBase", "lstPersonList");
+  Log["Message"]("Clicked on List Person on position " +number);
 }
