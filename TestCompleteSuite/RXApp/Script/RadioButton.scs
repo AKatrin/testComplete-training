@@ -1,0 +1,8 @@
+﻿function clickRadioButton(tabControl,groupControl,objectRbd){
+  var btnControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"][tabControl][groupControl][objectRbd]
+  btnControl["ClickButton"]();
+  //var btnControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabDataBase"]["grpGender"]["rdbFemale"]
+  //Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"][tabControl][name];
+  //btnControl["Click"]();
+  Log["Message"]("Clicked on button"+objectRbd);
+}

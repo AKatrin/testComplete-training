@@ -1,0 +1,5 @@
+﻿function setTextVal(valueContent,tabValue,objTextBoxName){
+  var numericUpDown = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"][tabValue][objTextBoxName]
+  numericUpDown["wValue"] = valueContent;
+  Log["Message"]("Set text" + valueContent);
+}

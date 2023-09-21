@@ -6,6 +6,7 @@
 		<child name="NameMapping" key="{86C1336B-5704-4302-8759-E28667EEA529}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Scenarios" key="{A20605A1-B9A6-429B-8F0B-4E15F9AF555A}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
 		<child name="TestedApps" key="{027E34D2-4FE5-45CF-94A0-2C0A10DE3595}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="Stores" key="{DE2EFE58-F810-46AA-BDBA-7347025237A8}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90813F19-086D-4670-83BC-DB51386DC224}" />
 	<testItems key="{300256C4-B946-4F02-AB8E-455806C8C1E9}" version="14">
@@ -13,7 +14,7 @@
 	</testItems>
 	<variables key="{A1D48E5D-FC86-49CD-A5E6-B76AD83539E2}" />
 	<settings key="{72CD4268-D85D-46EB-9B2A-77F01CF5CDEC}">
-		<settingsVersion value="15.54" />
+		<settingsVersion value="15.55" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

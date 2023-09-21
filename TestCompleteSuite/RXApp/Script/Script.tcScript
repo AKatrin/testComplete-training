@@ -5,6 +5,8 @@
 			<child name="Tab" key="{BB508E3A-D11E-4E31-94EB-42C065F2DE43}" path="Tab.scs" />
 			<child name="Button" key="{7D36521C-F54A-448F-BAD6-26E7629CBE72}" path="Button.scs" />
 			<child name="TextBox" key="{08E52E77-9F12-4898-AEFC-7C55757EE143}" path="TextBox.scs" />
+			<child name="TextDropDown" key="{CDAEAAAF-5147-4551-AF16-299949CE587E}" path="TextDropDown.scs" />
+			<child name="RadioButton" key="{503149DE-EC31-406E-BE02-0DC9F6ED97AE}" path="RadioButton.scs" />
 		</folder>
 		<folder name="Hooks">
 			<child name="ExitAppHook" key="{D77D3E8E-EDA7-4682-81ED-52B669ABB6E0}" path="ExitAppHook.scs" />

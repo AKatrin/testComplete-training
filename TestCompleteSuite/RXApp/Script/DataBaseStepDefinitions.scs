@@ -1,1 +1,39 @@
-﻿
+﻿//USEUNIT Button
+//USEUNIT DataBaseTab
+//USEUNIT ExitAppHook
+//USEUNIT StartAppHook
+//USEUNIT Tab
+//USEUNIT TextBox
+Given("The Registration form is open", function (){
+  Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["ClickTab"]("Test database");
+});
+
+When("I enter {arg}, {arg}, {arg}, {arg}, {arg}", function (name, lastName, department, age, gender){
+  Tab["goTabByName"]("Test database");  
+  DataBaseTab["setTextName"](name);
+  DataBaseTab["setTextLastName"](lastName);
+  DataBaseTab["setTextDepartment"](department);
+  DataBaseTab["setTextAge"](age);
+
+  if (gender == "Female") {
+    DataBaseTab["setRadioButtonGender"]("rdbFemale");
+  }else if (gender == "Male"){
+  DataBaseTab["setRadioButtonGender"]("rdbMale");
+  }  
+  Button["clickButtonTab"]("RxTabDataBase","btnAddPerson");
+});
+
+Then("I add entry should see the list of Person on screen", function (){
+  Tables.lstPersonList["Check"]();  
+});
+
+Then("I delete the entry", function (){
+  var tabControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"];
+  var tabPage = tabControl["RxTestDataBase"];
+  var listBox = tabPage["lstPersonList"];
+  listBox["ClickItem"](0);
+  var button = tabPage["btnDeletePerson"];
+  button["ClickButton"]();
+  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTestDataBase"]["lstPersonList"], "wItemCount", cmpEqual, 0);
+  aqObject["CheckProperty"](Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTestDataBase"]["lblNumberOfPersonsNumber"], "WndCaption", cmpEqual, "0");
+});

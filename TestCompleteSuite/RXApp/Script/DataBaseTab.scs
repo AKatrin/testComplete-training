@@ -1,1 +1,31 @@
-﻿
+﻿//USEUNIT Button
+//USEUNIT IntroTab
+//USEUNIT RadioButton
+//USEUNIT Tab
+//USEUNIT TextBox
+//USEUNIT TextDropDown
+function setTextName(name){    
+  TextBox["setTextVal"](name,"RxTabDataBase","txtFirstName");
+  Log["Message"]("Setting Text on"+ name);
+}
+
+function setTextLastName(lastName){    
+  TextBox["setTextVal"](lastName,"RxTabDataBase","txtLastName");
+  Log["Message"]("Setting Text on"+ lastName);
+}
+
+function setTextDepartment(department){    
+  TextBox["setTextVal"](department,"RxTabDataBase","cmbDepartment");
+  Log["Message"]("Setting Text on"+ department);
+}
+
+function setTextAge(age){    
+  TextDropDown["setTextVal"](age,"RxTabDataBase","txtAge");
+  Log["Message"]("Setting Text on"+ age);
+}
+
+function setRadioButtonGender(genderValue){
+  RadioButton["clickRadioButton"]("RxTabDataBase","grpGender",genderValue);
+  //  //var btnControl = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"]["RxTabDataBase"]["grpGender"]["rdbFemale"]
+  Log["Message"]("Setting Text on readio button gender"+ genderValue);  
+}

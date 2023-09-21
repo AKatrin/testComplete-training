@@ -4,3 +4,9 @@
   Log["Message"]("Set text" + valueContent);
 }
 
+function setTextVal(valueContent,tabValue,objTextBoxName){
+  var textBox = Aliases["RxDemoApp"]["RxMainFrame"]["RxTabcontrol"][tabValue][objTextBoxName]
+  textBox["SetText"](valueContent);
+  Log["Message"]("Set text" + valueContent);
+}
+
